@@ -44,4 +44,4 @@ def splitFile(fileName):
     f.close()
 
 
-splitFile('./talking.txt')
+splitFile('../talking.txt')

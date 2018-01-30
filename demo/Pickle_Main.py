@@ -15,7 +15,7 @@ def getList(fileName):
 
 
 myList = [123, 3.14, "发强", ["another list"]]
-fileName = "myList.pkl" # 文件名后缀可以随意，无限制。
+fileName = "../myList.pkl" # 文件名后缀可以随意，无限制。
 
 saveList(myList, fileName)  # 调用保存
 
