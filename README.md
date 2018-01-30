@@ -1,7 +1,16 @@
 # PythonDemo
 
 #### 2018年01月30日
-[属性方法的死循环误区](https://github.com/lvfaqiang/PythonDemo/blob/master/demo/Rectangle.py)
+[python 描述符](https://github.com/lvfaqiang/PythonDemo/blob/master/demo/Descriptor.py)<br/>
+[描述符示例1](https://github.com/lvfaqiang/PythonDemo/blob/master/demo/Temp.py)<br/>
+[描述符示例2（改进版）](https://github.com/lvfaqiang/PythonDemo/blob/master/demo/Temp_1.py)<br/>
+```
+示例说明：
+一个温度类，有两个属性：摄氏度、华氏度。
+摄氏度或者华氏度改变时，另一个也要随之改变。（摄氏度 * 1.8 + 32 = 华氏度）
+```
+
+[属性方法的死循环误区:](https://github.com/lvfaqiang/PythonDemo/blob/master/demo/Rectangle.py)
 ```
 示例介绍：
 定义一个矩形类，默认有长宽属性。
